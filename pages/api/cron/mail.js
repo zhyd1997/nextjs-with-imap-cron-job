@@ -67,6 +67,7 @@ const handler = async (req, res) => {
 
     imap.once('end', function() {
         console.log('Connection ended');
+        res.status(200).json({ message: 'Success' })
     });
 
     imap.connect()
