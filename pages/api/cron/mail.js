@@ -4,10 +4,10 @@ const inspect = require('util').inspect
 const imapEmail = process.env.IMAP_EMAIL
 const imapPassword = process.env.IMAP_PASSWORD
 
-// This function can run for a maximum of 5 seconds
-// export const config = {
-//   maxDuration: 300,
-// };
+// This function can run for a maximum of 300 seconds
+export const config = {
+  maxDuration: 300,
+};
 
 // Configure IMAP server settings
 const imapConfig = {
