@@ -6,7 +6,7 @@
     }
   ],
   "functions": {
-    "api/cron/main.js": {
+    "pages/api/cron/main.js": {
       "maxDuration": 300
     }
   }
