@@ -4,10 +4,5 @@
       "path": "/api/cron/mail",
       "schedule": "*/5 * * * *"
     }
-  ],
-  "functions": {
-    "pages/api/cron/main.js": {
-      "maxDuration": 300
-    }
-  }
+  ]
 }
