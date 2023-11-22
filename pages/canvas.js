@@ -1,4 +1,4 @@
-const { createCanvas, loadImage } = require('canvas')
+const { createCanvas, loadImage } = require('@napi-rs/canvas')
 
 export default function Home() {
     const canvas = createCanvas(200, 200)
