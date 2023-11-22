@@ -4,12 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "build_canvas": "git clone https://github.com/jwerre/node-canvas-lambda.git && cd node-canvas-lambda && git checkout x86-64 && make build NODE_VERSION=18",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@napi-rs/canvas": "^0.1.44",
+    "canvas": "^2.11.2",
     "imap": "^0.8.19",
     "next": "12.3.0",
     "react": "^17.0.2",
