@@ -1,6 +1,7 @@
 const { createCanvas, loadImage } = require('canvas')
 
 export default function Home() {
+    console.log(process.env.PWD)
     const canvas = createCanvas(200, 200)
     const ctx = canvas.getContext('2d')
     
